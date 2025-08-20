@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile">
+                <div class="profile-image">
+                    <!-- Foto de perfil real -->
+                    <img src="assets/profile-photo.jpg" alt="Foto de Perfil" class="profile-photo">
+                </div>
+                <div class="profile-text">
+                    <h1>Seu Nome</h1>
+                    <h2>Desenvolvedor & Analista de Suporte</h2>
+                </div>
+            </div>
+        </header>
+
+        <section class="about">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou um profissional apaixonado por tecnologia, atuando como Desenvolvedor e Analista de Suporte. Tenho experiência em resolver problemas complexos e criar soluções eficientes.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Habilidades</h2>
+            <div class="skill-tags">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Suporte Técnico</span>
+                <span class="skill-tag">Resolução de Problemas</span>
+                <!-- Adicione mais habilidades conforme necessário -->
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Meus Projetos</h2>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <!-- Projeto 1 -->
+                    <div class="carousel-card">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="project-overlay">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Eli Donuts</h3>
+                                <p>Esta é uma página de cardápio digital interativo para a "Eli Donuts". Ela foi projetada para oferecer uma experiência moderna e amigável aos clientes, substituindo um menu de papel tradicional.</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">HTML</span>
+                                    <span class="project-tag">CSS</span>
+                                    <span class="project-tag">JavaScript</span>
+                                </div>
+                                <a href="https://github.com/dostefanski/Eli" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i> Ver no GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Projeto 2 -->
+                    <div class="carousel-card">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="project-overlay">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Devlinks</h3>
+                                <p>O projeto DevLinks é um cartão de visita digital e centralizador de links, ideal para perfis de desenvolvedores e criadores de conteúdo. Ele oferece uma maneira elegante de reunir seus principais links (como perfis em redes sociais e portfólio no GitHub) em uma única página.</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">HTML</span>
+                                    <span class="project-tag">CSS</span>
+                                    <span class="project-tag">JavaScript</span>
+                                </div>
+                                <a href="https://github.com/dostefanski/devlinks" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i> Ver no GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Projeto 3 -->
+                    <div class="carousel-card">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="project-overlay">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Formulario-de-matricula</h3>
+                                <p>Este projeto é um formulário de matrícula para a escola de educação infantil "Estrelas do Amanhã". Ele foi desenvolvido com foco na experiência do usuário e na semântica do código, utilizando HTML para estruturar as informações de forma clara e acessível.</p>
+                                <div class="project-tags">
+                                    <span class="project-tag">HTML</span>
+                                    <span class="project-tag">CSS</span>
+                                   <!---- <span class="project-tag">PostgreSQL</span> -->
+                                </div>
+                                <a href="https://github.com/dostefanski/Formulario-de-matricula" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i> Ver no GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-nav">
+                    <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="carousel-dots">
+                        <span class="carousel-dot active" data-index="0"></span>
+                        <span class="carousel-dot" data-index="1"></span>
+                        <span class="carousel-dot" data-index="2"></span>
+                    </div>
+                    <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="social">
+            <h2>Conecte-se Comigo</h2>
+            <div class="social-buttons">
+                <a href="https://github.com/dostefanski" class="social-btn github" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/douglas-stefanski-a92297292/" class="social-btn linkedin" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://www.instagram.com/dostefanski/#" class="social-btn instagram" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Informações de Contato</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>do.stefanski@gmail.com</span>
+                </div>
+                <!-- <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>(00) 12345-6789</span>
+                </div> -->
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>São Paulo, SP</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Douglas Stefanski. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
