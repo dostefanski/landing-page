@@ -1,6 +1,6 @@
 # Landing Page de Portfólio Pessoal
 
-![Preview da Landing Page](assets/preview.jpg)
+![Preview da Landing Page](assets/preview.png)
 
 ## 📋 Sobre o Projeto
 
